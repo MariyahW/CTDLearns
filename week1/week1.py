@@ -22,3 +22,15 @@ num1=input("Pick a number, any number! ")
 num2=input("Pick another number! ")
 result = float(num1) * float(num2)
 print(f"The product of {num1} and {num2} is {result} aka {num1} * {num2} = {result}")
+
+# Section 4: Formatted Receipt
+itemName="Python T-shirt"
+itemPrice=19.99
+quantity=3
+totalPrice=itemPrice*quantity
+print(f"++++++++++ RECEIPT +++++++++")
+print(f"Item: {itemName}")
+print(f"Price: ${itemPrice:.2f}")
+print(f"Quantity: {quantity}")
+print(f"++++++++++ TOTAL ++++++++++")
+print(f"Total: ${totalPrice:.2f}")
